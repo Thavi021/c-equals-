@@ -1,0 +1,11 @@
+using System;
+
+ class Program
+{
+	public static void Main()
+	{
+		int i = 10, j = 10;
+		Console.WriteLine(i == j); // true
+		Console.WriteLine(i.Equals(j)); // true
+	}
+}
